@@ -30,7 +30,7 @@ function runTimmer(){
             else
             {
                 clearInterval(timmerInterval)
-                document.querySelector('#pbtm').innerHTML = "<h1>Game Over</h1>"
+                document.querySelector('#pbtm').innerHTML = "<h1>Game Over : Your Score is--</h1> <h1>"+score+"</h1>"
             }       
     },1000)
 }
